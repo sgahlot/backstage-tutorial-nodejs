@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "tutorial-backstage-nodejs"
+  annotations:
+    github.com/project-slug: sgahlot/backstage-tutorial-nodejs
 spec:
   type: service
   owner: user:guest
