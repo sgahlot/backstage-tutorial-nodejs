@@ -4,6 +4,7 @@ metadata:
   name: "tutorial-backstage-nodejs"
   annotations:
     github.com/project-slug: sgahlot/backstage-tutorial-nodejs
+    'quay.io/repository-slug': 'sgahlot/keycloak-test'
 spec:
   type: service
   owner: user:guest
