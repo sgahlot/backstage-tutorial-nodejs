@@ -4,7 +4,7 @@ metadata:
   name: sgahlot
 spec:
   profile:
-    displayName: Sandip Gahlot (local) # Can be any arbitrary value, will default to metadata.name value if not inserted.
+    displayName: Sandip Gahlot # Can be any arbitrary value, will default to metadata.name value if not inserted.
     email: sgahlot@redhat.com
     picture: https://avatars.githubusercontent.com/u/2349910?v=4
   memberOf: []

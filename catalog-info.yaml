@@ -7,5 +7,5 @@ metadata:
     'quay.io/repository-slug': 'sgahlot/keycloak-test'
 spec:
   type: service
-  owner: user:guest
+  owner: Sandip Gahlot
   lifecycle: experimental
