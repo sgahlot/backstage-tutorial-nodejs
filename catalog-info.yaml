@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: sgahlot/backstage-tutorial-nodejs
     'quay.io/repository-slug': 'sgahlot/keycloak-test'
-    vault.io/secrets-path: 'test'
+    vault.io/secrets-path: 'secret/test'
 spec:
   type: service
   owner: Sandip Gahlot
