@@ -6,6 +6,8 @@ metadata:
     github.com/project-slug: sgahlot/backstage-tutorial-nodejs
     'quay.io/repository-slug': 'sgahlot/keycloak-test'
     vault.io/secrets-path: janus-idp
+    'backstage.io/kubernetes-id': pod-info-deployment
+    'backstage.io/kubernetes-namespace': development
 spec:
   type: service
   owner: Sandip Gahlot
