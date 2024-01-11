@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-k8s-component"
+  annotations:
+    github.com/project-slug: sgahlot/backstage-tutorial-nodejs
+    'quay.io/repository-slug': 'sgahlot/keycloak-test'
+    'backstage.io/kubernetes-id': backstage-k8s-component
+    'backstage.io/kubernetes-namespace': development
+spec:
+  type: service
+  owner: Sandip Gahlot
+  lifecycle: experimental
