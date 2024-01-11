@@ -6,7 +6,7 @@ metadata:
     github.com/project-slug: sgahlot/backstage-tutorial-nodejs
     'quay.io/repository-slug': 'sgahlot/keycloak-test'
     vault.io/secrets-path: janus-idp
-    'backstage.io/kubernetes-id': demo-service
+    'backstage.io/kubernetes-label-selector': 'app: pod-info'
     'backstage.io/kubernetes-namespace': development
 spec:
   type: service
