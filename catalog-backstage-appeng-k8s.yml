@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: appeng-component
   annotations:
-    backstage.io/kubernetes-id:appeng-component
+    backstage.io/kubernetes-id: appeng-component
     github.com/project-slug: sgahlot/backstage-tutorial-nodejs
 spec:
   lifecycle: production
