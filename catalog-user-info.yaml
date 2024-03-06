@@ -1,3 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: users
+  description: Local group for User catalog
+spec:
+  type: team
+  profile:
+    displayName: AppEng
+  parent: optional-parent-group
+  children: []
+---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -7,4 +20,5 @@ spec:
     displayName: Sandip Gahlot # Can be any arbitrary value, will default to metadata.name value if not inserted.
     email: sgahlot@redhat.com
     picture: https://avatars.githubusercontent.com/u/2349910?v=4
-  memberOf: []
+  memberOf: [users]
+
